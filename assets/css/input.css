@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~lucide-static/font/Lucide.css';
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('/assets/css/font/Kanit-MediumItalic.ttf');
+}
+
+body{
+    font-family: "Kanit",sans-serif;
+}
+
+.full-screen{
+    height: 100vh;
+}
+
+.hero{
+    background-image: url(/assets/img/pexels-ali-dashti-506667798-26341200\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} 
